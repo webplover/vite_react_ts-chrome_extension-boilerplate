@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "WebPlover Chrome Extension Boilerplate",
+  "version": "1.0",
+  "description": "This is vite React+TypeScript Chrome Extension development Boilerplate",
+  "author": "WebPlover",
+  "homepage_url": "https://webplover.com",
+  "icons": {
+    "16": "assets/icon.png",
+    "48": "assets/icon.png",
+    "128": "assets/icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/icon.png",
+      "48": "assets/icon.png",
+      "128": "assets/icon.png"
+    }
+  },
+  "permissions": [],
+  "background": {
+    "service_worker": "assets/background.js"
+  }
+}
